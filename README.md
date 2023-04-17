@@ -1,5 +1,4 @@
-## Deploy `Vault` For `EKS` Cluster Using Vault Image From `Elastic Container Registry ECR`
-# DOCUMENTATION `Steps` and `Commands`:
+## Simple `EKS` Public Cluster modules 
 _______________________________________________________________________________
 ## 1-Configure mypc with aws account
 ```
@@ -18,5 +17,4 @@ terraform apply
 aws eks update-kubeconfig --region <region code> --name <cluster name>
 kubectl get svc
 ```
-## 3-Deploy Vault for EKS cluster 
   
